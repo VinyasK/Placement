@@ -6,6 +6,5 @@ for num in Numbers:
         if digit not in unique_digits:  
             unique_digits.append(digit)
 
-sorted(unique_digits)  
-
+unique_digits=sorted(unique_digits)  
 print(unique_digits)
